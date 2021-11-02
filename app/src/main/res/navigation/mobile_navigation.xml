@@ -6,12 +6,6 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.dootapp.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.dootapp.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
@@ -23,8 +17,13 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
-        android:id="@+id/creadTaskFragment"
-        android:name="com.example.dootapp.ui.cread.CreadTaskFragment"
-        android:label="fragment_cread_task"
-        tools:layout="@layout/fragment_cread_task" />
+        android:id="@+id/create_task_fragment"
+        android:name="com.example.dootapp.ui.cread.CreateTaskFragment"
+        android:label="fragment_create_task"
+        tools:layout="@layout/fragment_create_task" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dootapp.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>
